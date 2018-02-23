@@ -1,0 +1,223 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5429534013302146698",
+      "lastPropertyId": "4:1103267039905912297",
+      "name": "AR",
+      "properties": [
+        {
+          "id": "2:5087002999572367165",
+          "name": "code"
+        },
+        {
+          "id": "3:6102947929019776710",
+          "name": "name"
+        },
+        {
+          "id": "4:1103267039905912297",
+          "name": "id"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:5172726588462239637",
+      "lastPropertyId": "2:7774465004713173143",
+      "name": "Problem",
+      "properties": [
+        {
+          "id": "1:2710164098908879185",
+          "name": "id"
+        },
+        {
+          "id": "2:7774465004713173143",
+          "name": "name"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:237015984734710223",
+      "lastPropertyId": "2:8072544264240084536",
+      "name": "Counter",
+      "properties": [
+        {
+          "id": "1:1852941575067602560",
+          "name": "id"
+        },
+        {
+          "id": "2:8072544264240084536",
+          "name": "placeId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:7037367631442779468",
+      "lastPropertyId": "3:8857738610439380264",
+      "name": "PC",
+      "properties": [
+        {
+          "id": "1:6399444253901140813",
+          "name": "name"
+        },
+        {
+          "id": "2:7719773694436781121",
+          "name": "counterId"
+        },
+        {
+          "id": "3:8857738610439380264",
+          "name": "id"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "6:8191199055809687354",
+      "lastPropertyId": "2:9152012722384081417",
+      "name": "Place",
+      "properties": [
+        {
+          "id": "1:2622851356754923058",
+          "name": "id"
+        },
+        {
+          "id": "2:9152012722384081417",
+          "name": "name"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "7:9031766962661029778",
+      "lastPropertyId": "23:1808490704236786361",
+      "name": "Report",
+      "properties": [
+        {
+          "id": "1:3691873826947616908",
+          "name": "id"
+        },
+        {
+          "id": "2:1695268908626226877",
+          "name": "time"
+        },
+        {
+          "id": "3:2008412502213148102",
+          "name": "date"
+        },
+        {
+          "id": "6:55197227705139533",
+          "name": "image"
+        },
+        {
+          "id": "7:2909211791797440556",
+          "name": "reason"
+        },
+        {
+          "id": "8:8864583027777907678",
+          "name": "action"
+        },
+        {
+          "id": "9:8379419376551722990",
+          "name": "airportResponse"
+        },
+        {
+          "id": "10:1235471406474986629",
+          "name": "arId"
+        },
+        {
+          "id": "15:7289370952431014580",
+          "name": "no"
+        },
+        {
+          "id": "16:577394246829982169",
+          "name": "userId"
+        },
+        {
+          "id": "17:4457167616188638927",
+          "name": "userName"
+        },
+        {
+          "id": "18:3911788363777700428",
+          "name": "reporterName"
+        },
+        {
+          "id": "19:4885055525116096676",
+          "name": "pc"
+        },
+        {
+          "id": "20:125577297329880411",
+          "name": "problem"
+        },
+        {
+          "id": "21:7897368268645754799",
+          "name": "fault"
+        },
+        {
+          "id": "22:4229354718776772624",
+          "name": "statues"
+        },
+        {
+          "id": "23:1808490704236786361",
+          "name": "place"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "9:2595713518800943338",
+      "lastPropertyId": "4:7071860863283471362",
+      "name": "User",
+      "properties": [
+        {
+          "id": "1:572981172470038084",
+          "name": "name"
+        },
+        {
+          "id": "2:2962385430289188661",
+          "name": "password"
+        },
+        {
+          "id": "3:6276272271875844968",
+          "name": "id"
+        },
+        {
+          "id": "4:7071860863283471362",
+          "name": "admin"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "9:2595713518800943338",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [
+    5580891889400805262,
+    2459982008266949916
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    8796764464787430593,
+    2252538586121049329,
+    5897052322262743548,
+    2068055343795239685,
+    2374876691089776183,
+    5730451430676077791,
+    1171492599599111980,
+    6283391715854378613,
+    3249701242983307684,
+    7063675141536675789,
+    469069172697654601,
+    7249869441507455307,
+    8316552515397522203
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

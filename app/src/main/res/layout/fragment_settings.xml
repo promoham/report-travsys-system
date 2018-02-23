@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mono.eagle.com.travsys.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/subNavigation"
+            android:layout_marginTop="-25dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/settings_menu" />
+
+        <FrameLayout
+            android:id="@+id/settingsFrame"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".9"
+            android:padding="6dp"
+            android:text="@string/title_home" />
+
+    </LinearLayout>
+</FrameLayout>

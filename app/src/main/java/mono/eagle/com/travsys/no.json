@@ -1,0 +1,12 @@
+{
+  "to": "/topics/reports",
+  "data": {
+    "extra_information": "extra text ......"
+  },
+  "notification": {
+    "title": "TravSys",
+    "body": "New Report",
+    "sound": "default",
+    "click_action": "com.example.myapplication_YOUR_NOTIFICATION_NAME"
+  }
+}

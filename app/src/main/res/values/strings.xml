@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">TravSys</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_navigation_report">navigation_report</string>
+    <string name="title_navigation_week">Week</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password">password</string>
+    <string name="name">name</string>
+    <string name="id">id</string>
+    <string name="login">Login</string>
+    <string name="traveling_system">Traveling System</string>
+    <string name="code">code</string>
+    <string name="pc">PC</string>
+    <string name="counter">Counter</string>
+    <string name="time">time</string>
+    <string name="msg_token_fmt" />
+    <string name="msg_subscribed" />
+    <string name="default_notification_channel_id" />
+    <string name="default_notification_channel_name" />
+    <string-array name="places">
+        <item>{- select Place .. -}</item>
+        <item>Fids</item>
+        <item>Counter</item>
+        <item>Gate</item>
+        <item>Occ</item>
+        <item>Arrival</item>
+        <item>Sort</item>
+    </string-array>
+    <string-array name="counters">
+        <item>{- select Counter .. -}</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="Faults">
+        <item>{- select Fault .. -}</item>
+        <item>Routine</item>
+        <item>Minor</item>
+        <item>Major</item>
+        <item>Critical</item>
+    </string-array>
+    <string-array name="Statuses">
+        <item>{- select Status .. -}</item>
+        <item>Close</item>
+        <item>Open</item>
+        <item>Pinding</item>
+    </string-array>
+
+</resources>

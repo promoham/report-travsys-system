@@ -1,0 +1,11 @@
+String[] mailto = {"me@gmail.com"};
+Uri uri = Uri.parse("PATH WHERE THE PDF FILE YOU GENERATED");
+
+Intent emailIntent = new Intent(Intent.ACTION_SEND);
+emailIntent.putExtra(Intent.EXTRA_EMAIL, mailto);
+emailIntent.putExtra(Intent.EXTRA_SUBJECT, "My Subject");
+emailIntent.putExtra(Intent.EXTRA_TEXT, "My Body");
+emailIntent.setType("application/pdf");
+emailIntent.putExtra(Intent.EXTRA_STREAM, uri);
+
+startActivity(Intent.createChooser(emailIntent, "Send email using:"));

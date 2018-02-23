@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="mono.eagle.com.travsys.ReportFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"
+            android:orientation="vertical">
+
+
+            <CheckBox
+                android:id="@+id/chkFromDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="From" />
+
+            <CheckBox
+                android:id="@+id/chkToDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <RadioButton
+                    android:id="@+id/radioDaily"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="Daily" />
+
+                <RadioButton
+                    android:id="@+id/radioWeekly"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="Weekly" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/reportsGrid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".8"
+            android:orientation="vertical">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabPrint"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="7dp"
+        android:background="@drawable/print"
+        android:src="@drawable/print" />
+
+</RelativeLayout>

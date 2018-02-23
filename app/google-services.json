@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "367440372204",
+    "firebase_url": "https://travsys01.firebaseio.com",
+    "project_id": "travsys01",
+    "storage_bucket": "travsys01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367440372204:android:1b8abaa110d8a8aa",
+        "android_client_info": {
+          "package_name": "mono.eagle.com.travsys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367440372204-f4m60efd5p4k614pmleer9ldn1fag07s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mono.eagle.com.travsys",
+            "certificate_hash": "70534e10fa97d4dab5cd1566ef1e3b3cc2970771"
+          }
+        },
+        {
+          "client_id": "367440372204-qb6e77nhvp8kckk5jopjgdvlueh3sj7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDui8nvSGKQpf9Bkl9xdAF528viqNrvWGc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367440372204-qb6e77nhvp8kckk5jopjgdvlueh3sj7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

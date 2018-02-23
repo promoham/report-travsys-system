@@ -1,0 +1,193 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mono.eagle.com.travsys.NewReportFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:id="@+id/txtDate"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:text="txtDate"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtTime"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:text="txtTime"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:id="@+id/txtUser"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:text="txtUser"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerPlaces"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:entries="@array/places"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutCounter"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:visibility="gone"
+                tools:ignore="NestedWeights">
+
+                <Spinner
+                    android:id="@+id/spinnerCounter"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:entries="@array/counters"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerPC"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".85">
+
+            <LinearLayout
+                android:id="@+id/txtsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/txtReason"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".1"
+                    android:hint="reason"
+                    android:maxLines="1"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txtAction"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".1"
+                    android:hint="action"
+                    android:maxLines="1"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txtAirportResponse"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".1"
+                    android:hint="airportResponse"
+                    android:maxLines="1"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerProblem"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".1"
+                    android:hint="Problem"
+                    android:maxLines="1"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerArId"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".1"
+                    android:hint="AR"
+                    android:maxLines="1"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerFaults"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".1"
+                    android:entries="@array/Faults"
+                    android:hint="fault"
+                    android:maxLines="1"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerStatues"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".1"
+                    android:entries="@array/Statuses"
+                    android:hint="statues"
+                    android:maxLines="1"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txtReporterName"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".1"
+                    android:hint="reporterName"
+                    android:maxLines="1"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnAdd"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".12"
+                    android:text="add"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+</FrameLayout>
